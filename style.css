@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  display: flex;
+  background-color: rgba(188, 120, 236, 1);
+  padding: 1rem;
+}
+
+.nav-item {
+  font-size: 1.5rem;
+  padding: 0 10px;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+.app-container {
+  background-color: rgba(29, 133, 163, 1);
+  min-height: 100vh;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+}
+input[type="number"] {
+  width: 20rem;
+  margin: 1rem;
+  padding: 0.75rem;
+}
+
+#chckTri,
+#calHypo,
+#calcArea {
+  padding: 0.75rem;
+}
+
+#result,
+#message {
+  margin-top: 1.7rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* rgba(188, 120, 236, 1) 
+    rgba(29, 133, 163, 1) */
+.question-container {
+  width: 80%;
+  margin: 20px;
+}
